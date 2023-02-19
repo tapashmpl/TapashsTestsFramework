@@ -1,0 +1,11 @@
+framework module TapashTestFramework {
+  umbrella header "TapashTestFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module TapashTestFramework.Swift {
+  header "TapashTestFramework-Swift.h"
+  requires objc
+}

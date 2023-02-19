@@ -1,0 +1,77 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TapashTestFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RandomNumberGenerator",
+        "printedName": "RandomNumberGenerator",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RandomNumberGenerator",
+                "printedName": "TapashTestFramework.RandomNumberGenerator",
+                "usr": "s:19TapashTestFramework21RandomNumberGeneratorC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19TapashTestFramework21RandomNumberGeneratorCACycfc",
+            "mangledName": "$s19TapashTestFramework21RandomNumberGeneratorCACycfc",
+            "moduleName": "TapashTestFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getRandomNumber",
+            "printedName": "getRandomNumber()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19TapashTestFramework21RandomNumberGeneratorC03getdE0SiyF",
+            "mangledName": "$s19TapashTestFramework21RandomNumberGeneratorC03getdE0SiyF",
+            "moduleName": "TapashTestFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19TapashTestFramework21RandomNumberGeneratorC",
+        "mangledName": "$s19TapashTestFramework21RandomNumberGeneratorC",
+        "moduleName": "TapashTestFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
