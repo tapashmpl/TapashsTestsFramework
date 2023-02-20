@@ -23,21 +23,21 @@ iOS 8.0+ | macOS 10.10+ | tvOS 9.0+ | watchOS 2.0+
 Xcode 8
 ### Integration
 # CocoaPods (iOS 8+, OS X 10.9+)
-You can use CocoaPods to install SwiftyJSON by adding it to your Podfile:
+You can use CocoaPods to install TapashsTestsFramework by adding it to your Podfile:
 
-<!-- platform :ios, '11.0'
-use_frameworks!
 
-target 'MyApp' do
-    pod 'TapashsTestsFramework', '~> 1.0.0'
-end -->
 
 ### Executing program
 
 * How to run the program
 * Step-by-step bullets
 ```
-code blocks for commands
+platform :ios, '11.0'
+use_frameworks!
+
+target 'MyApp' do
+    pod 'TapashsTestsFramework', '~> 1.0.0'
+end
 ```
 
 ## Help
