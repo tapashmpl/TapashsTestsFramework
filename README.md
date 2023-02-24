@@ -66,16 +66,6 @@ ex. [@tapashmpl](https://github.com/tapashmpl)
 
 This project is licensed under the [TapashsTestsFramework] License - see the LICENSE.md file for details
 
-## Acknowledgments
 
-Code snippets to generate the .xcframework.
-xcodebuild archive -scheme TapashsTestsFramework -destination="iOS" -archivePath /tmp/xcf/ios.xcarchive -derivedDataPath /tmp/iphoneos -sdk iphoneos SKIP_INSTALL=NO 
-
-
-xcodebuild archive -scheme TapashsTestsFramework -destination="iOS Simulator" -archivePath /tmp/xcf/iossimulator.xcarchive -derivedDataPath /tmp/iphoneos -sdk iphonesimulator SKIP_INSTALL=NO
-
-
-xcodebuild -create-xcframework -framework /tmp/xcf/ios.xcarchive/Products/Library/Frameworks/TapashsTestsFramework.framework -framework /tmp/xcf/iossimulator.xcarchive/Products/Library/Frameworks/TapashsTestsFramework.framework -output TapashsTestsFramework.xcframework
-# TapashsTestsFramework
 # TapashsTestsFramework
 
